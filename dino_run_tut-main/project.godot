@@ -1,0 +1,21 @@
+config_version=5
+
+[application]
+
+config/name="ENDLESS RUNNER"
+run/main_scene="res://mainmenu/main_menu.tscn"
+config/features=PackedStringArray("4.2", "Forward Plus")
+config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+renderer/rendering_method="mobile"

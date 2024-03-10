@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://f7fr0pyfmjti"]
+
+[ext_resource type="Texture2D" uid="uid://wc3lnvaxexr6" path="res://assets/img/up.png" id="1_pjb3j"]
+
+[node name="Mobile Controls" type="CanvasLayer"]
+
+[node name="Jump" type="TouchScreenButton" parent="."]
+texture_filter = 1
+position = Vector2(13, 539)
+scale = Vector2(3, 3)
+texture_normal = ExtResource("1_pjb3j")
+action = "jump"
+
+[node name="Duck" type="TouchScreenButton" parent="."]
+texture_filter = 1
+position = Vector2(1135, 635)
+rotation = 3.14159
+scale = Vector2(3, 3)
+texture_normal = ExtResource("1_pjb3j")
+action = "duck"
